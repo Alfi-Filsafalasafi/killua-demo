@@ -1,0 +1,20 @@
+*{
+    font-family: "Rajdhani", sans-serif;
+}
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+  .sidebar .nav-link {
+    color: #fff;
+  }
+  .sidebar .nav-link:hover {
+    background-color: #495057;
+  }
+  .scrollable-list {
+    max-height: 300px; /* Membatasi tinggi maksimal */
+    overflow-y: auto;  /* Menambahkan scroll secara vertikal */
+    border: 1px solid #ccc; /* Opsional: Menambahkan garis tepi */
+    border-radius: 5px; /* Opsional: Memberikan radius sudut */
+  }
